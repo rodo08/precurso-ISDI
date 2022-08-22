@@ -1,8 +1,5 @@
-/*
-    Podrías hacer que la calculadora realice operaciones sean cuales sean el número de argumentos pasados a la función?*/
-
-  let calculadora = (arr) => {
-  let resultado = [];
+ function calculadora(num1, num2) {
+  let resultado;
 
   if (typeof num1 === 'number' && typeof num2 === 'number') {
     resultado = ['la suma es ' + (num1+num2), ' la resta es ' +(num1-num2), ' la division es ' +(num1/num2).toFixed(3), ' y la multiplicacion es '+(num1*num2)];
@@ -16,4 +13,4 @@
  
   }
 
-console.log(calculadora(2,3))
+console.log(calculadora(2,3));
